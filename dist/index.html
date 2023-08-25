@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TERMNL-1</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+  <!-- Nav-Bar Start -->
+  <header class="bg-slate-600 py-4">
+    <nav class="container mx-auto px-4">
+      <div class="flex justify-between items-center">
+        <img src="./img/svg/termnl-1.svg" alt="#" />
+        <ul id="nav-bar"
+          class="flex flex-col gap-20 justify-center items-center absolute w-full min-h-screen bg-black left-[-100%] top-0 duration-500 md:flex-row md:static md:w-auto md:min-h-full md:bg-inherit z-10">
+          <li>
+            <a class="text-white font-family text-xl font-medium relative after:absolute after:bg-white after:w-0 after:h-[2px] after:bottom-0 after:left-0 after:duration-300 inline hover:after:w-full"
+              href="">Home</a>
+          </li>
+          <li>
+            <a class="text-white font-family text-xl font-medium relative after:absolute after:bg-white after:w-0 after:h-[2px] after:bottom-0 after:left-0 after:duration-300 inline hover:after:w-full"
+              href="">About Us</a>
+          </li>
+          <li>
+            <a class="text-white font-family text-xl font-medium relative after:absolute after:bg-white after:w-0 after:h-[2px] after:bottom-0 after:left-0 after:duration-300 inline hover:after:w-full"
+              href="">Blog</a>
+          </li>
+          <li>
+            <a class="text-white font-family text-xl font-medium relative after:absolute after:bg-white after:w-0 after:h-[2px] after:bottom-0 after:left-0 after:duration-300 inline hover:after:w-full"
+              href="">Contact Us</a>
+          </li>
+        </ul>
+        <input class="z-10 relative" onclick="openNav()" type="checkbox" id="nav" hidden />
+        <label id="" for="nav" class="w-7 h-7 flex flex-col gap-2 z-10 relative md:hidden">
+          <span class="border-white w-6 border-2"></span>
+          <span class="border-white w-6 border-2"></span>
+          <span class="border-white w-6 border-2"></span>
+        </label>
+      </div>
+    </nav>
+  </header>
+  <!-- Et dictumst diam pharetra volutpat. -->
+  <section
+    class="relative flex justify-center items-center w-full min-h-screen bg-no-repeat bg-center bg-cover flex-grow overflow-hidden"
+    style="background-image: url('./img/png/bg-img.png')">
+    <div class="container mx-auto">
+      <div class="single-item text-center">
+        <div>
+          <h1 class="text-white text-4xl md:text-8xl font-bold font-family">
+            Et dictumst <span class="text-blue-700"> diam</span>
+            <span class="text-blue-700 lg:block">pharetra <span class="text-white">volutpat.</span></span>
+          </h1>
+          <p class="text-white font-semibold text-xsm lg:text-base mt-5 font-family">
+            Dolor lacus nisl at elementum, aliquet ac. Consectetur viverra
+            ornare vel morbi
+            <span class="lg:block">ut in tincidunt viverra. Aenean feugiat malesuada nunc aliquet
+              vitae, commodo,</span>
+            pellentesque laoreet amet.
+          </p>
+          <button
+            class="bg-blue-600 font-family text-white text-xsm lg:text-xl duration-500 px-6 py-2 mt-5 mx-4 rounded-3xl font-semibold">
+            GET STARTED
+          </button>
+        </div>
+        <div>
+          <h1 class="text-white text-4xl md:text-8xl font-bold font-family">
+            Et dictumst <span class="text-blue-700"> diam</span>
+            <span class="text-blue-700 lg:block">pharetra <span class="text-white">volutpat.</span></span>
+          </h1>
+          <p class="text-white font-semibold text-xsm lg:text-base mt-5 font-family">
+            Dolor lacus nisl at elementum, aliquet ac. Consectetur viverra
+            ornare vel morbi
+            <span class="lg:block">ut in tincidunt viverra. Aenean feugiat malesuada nunc aliquet
+              vitae, commodo,</span>
+            pellentesque laoreet amet.
+          </p>
+          <button
+            class="bg-blue-600 font-family text-white text-xsm lg:text-xl duration-500 px-6 py-2 mt-5 mx-4 rounded-3xl font-semibold">
+            GET STARTED
+          </button>
+        </div>
+        <div>
+          <h1 class="text-white text-4xl md:text-8xl font-bold font-family">
+            Et dictumst <span class="text-blue-700"> diam</span>
+            <span class="text-blue-700 lg:block">pharetra <span class="text-white">volutpat.</span></span>
+          </h1>
+          <p class="text-white font-semibold text-xsm lg:text-base mt-5 font-family">
+            Dolor lacus nisl at elementum, aliquet ac. Consectetur viverra
+            ornare vel morbi
+            <span class="lg:block">ut in tincidunt viverra. Aenean feugiat malesuada nunc aliquet
+              vitae, commodo,</span>
+            pellentesque laoreet amet.
+          </p>
+          <button
+            class="bg-blue-600 font-family text-white text-xsm lg:text-xl duration-500 px-6 py-2 mt-5 mx-4 rounded-3xl font-semibold">
+            GET STARTED
+          </button>
+        </div>
+        <div>
+          <h1 class="text-white text-4xl md:text-8xl font-bold font-family">
+            Et dictumst <span class="text-blue-700"> diam</span>
+            <span class="text-blue-700 lg:block">pharetra <span class="text-white">volutpat.</span></span>
+          </h1>
+          <p class="text-white font-semibold text-xsm lg:text-base mt-5 font-family">
+            Dolor lacus nisl at elementum, aliquet ac. Consectetur viverra
+            ornare vel morbi
+            <span class="lg:block">ut in tincidunt viverra. Aenean feugiat malesuada nunc aliquet
+              vitae, commodo,</span>
+            pellentesque laoreet amet.
+          </p>
+          <button
+            class="bg-blue-600 font-family text-white text-xsm lg:text-xl duration-500 px-6 py-2 mt-5 mx-4 rounded-3xl font-semibold">
+            GET STARTED
+          </button>
+        </div>
+      </div>
+      <button class="absolute top-[45%] left-0 prev-btn rotate-180 hidden md:flex">
+        <img src="/dist/img/svg/slidr-btn.svg" alt="#" />
+      </button>
+      <button class="absolute top-[45%] right-0 next-btn bttn_pstn_1 hidden md:flex">
+        <img src="/dist/img/svg/slidr-btn.svg" alt="#" />
+      </button>
+    </div>
+  </section>
+  <!-- What we do? -->
+  <section class="bg-slate-100 overflow-hidden">
+    <div class="container mx-auto">
+      <div class="lg:flex items-center text-center lg:text-start py-14">
+        <div class="w-full lg:w-[30%]">
+          <h2 class="lg:text-5xl text-4xl font-bold text-black font-family">
+            <span class="text-blue-700">What</span> we do?
+          </h2>
+        </div>
+        <div class="w-full lg:w-[70%]">
+          <p class="lg:text-xl text-xs font-medium text-[#252930] font-family">
+            We believe in developing useful software instead of just
+            fulfilling initial requirements. During the past 10
+            <span class="lg:block">
+              an agile mindset, we have delivered 100+ different projects,
+              ranging from startups to enterprises.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Our services -->
+  <section class="overflow-hidden">
+    <div class="container mx-auto">
+      <div class="text-center">
+        <h2 class="text-black text-3xl font-bold mt-20">Our services</h2>
+        <p class="lg:text-xl text-xs font-normal text-slate-600 mt-10">
+          We provide to you the best choiches for you. Adjust it to your
+          health needs and make sure your undergo treatment
+          <span class="lg:block">
+            with our highly qualified doctors you can consult with us which
+            type of service is suitable for your health</span>
+        </p>
+      </div>
+      <div class="lg:flex justify-between mt-10">
+        <div class="bg-white cursor-pointer hover:shadow-2xl h-[330px] w-[350px] rounded-3xl px-10 py-10">
+          <img src="/dist/img/svg/Frame1.svg" alt="#" />
+          <h2 class="text-xl font-bold text-black mt-5 font-family">
+            Search doctor
+          </h2>
+          <p class="font-light text-xl mt-5 font-family">
+            Choose your doctor from thousands f specialist, general, and
+            trusted hospitals
+          </p>
+        </div>
+        <div class="bg-white mt-20 lg:mt-0 cursor-pointer hover:shadow-2xl h-[330px] w-[350px] rounded-3xl px-10 py-10">
+          <img src="/dist/img/svg/Frame2.svg" alt="#" />
+          <h2 class="text-xl font-bold text-black mt-5 font-family">
+            Online pharmacy
+          </h2>
+          <p class="font-light text-xl mt-5 font-family">
+            Buy your medicines with our mobile application with a simple
+            delivery system
+          </p>
+        </div>
+        <div class="bg-white mt-20 lg:mt-0 cursor-pointer hover:shadow-2xl h-[330px] w-[350px] rounded-3xl px-10 py-10">
+          <img src="/dist/img/svg/Frame3.svg" alt="#" />
+          <h2 class="text-xl font-bold text-black mt-5 font-family">
+            Consultation
+          </h2>
+          <p class="font-light text-xl mt-5 font-family">
+            Free consultation with our trusted doctors and get the best
+            recomendations
+          </p>
+        </div>
+      </div>
+      <div class="lg:flex justify-between mt-10">
+        <div class="bg-white mt-20 lg:mt-0 cursor-pointer hover:shadow-2xl h-[330px] w-[350px] rounded-3xl px-10 py-10">
+          <img src="/dist/img/svg/Frame4.svg" alt="#" />
+          <h2 class="text-xl font-bold text-black mt-5 font-family">
+            Details info
+          </h2>
+          <p class="font-light text-xl mt-5 font-family">
+            Free consultation with our trusted doctors and get the best
+            recomendations
+          </p>
+        </div>
+        <div class="bg-white mt-20 lg:mt-0 cursor-pointer hover:shadow-2xl h-[330px] w-[350px] rounded-3xl px-10 py-10">
+          <img src="/dist/img/svg/Frame5.svg" alt="#" />
+          <h2 class="text-xl font-bold text-black mt-5 font-family">
+            Emergency care
+          </h2>
+          <p class="font-light text-xl mt-5 font-family">
+            You can get 24/7 urgent care for yourself or your children and
+            your lovely family
+          </p>
+        </div>
+        <div class="bg-white mt-20 lg:mt-0 cursor-pointer hover:shadow-2xl h-[330px] w-[350px] rounded-3xl px-10 py-10">
+          <img src="/dist/img/svg/Frame6.svg" alt="#" />
+          <h2 class="text-xl font-bold text-black mt-5 font-family">
+            Tracking
+          </h2>
+          <p class="font-light text-xl mt-5 font-family">
+            Track and save your medical history and health data
+          </p>
+        </div>
+      </div>
+      <div class="text-center py-10">
+        <button
+          class="font-familybg-transparent duration-700 hover:bg-black hover:border-black hover:text-white text-blue-600 text-xl px-6 py-2 mt-5 mx-4 rounded-full border-2 border-blue-600 font-semibold">
+          Learn more
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- Application Modernization -->
+  <section class="overflow-hidden">
+    <div class="container mx-auto">
+      <div class="lg:flex items-center justify-center text-center lg:text-start mt-10 lg:mt-0">
+        <img src="/dist/img/png/Mobile apps-pana.png" alt="#" />
+        <div>
+          <h2 class="font-bold lg:text-5xl text-4xl text-black font-family">
+            Application <span class="text-blue-600">Modernization</span>
+          </h2>
+          <p class="lg:text-base text-sm font-normal text-gray-700 mt-5 font-family">
+            AgileCube has 10 years of experience in consulting, to enable a
+            continuous usage of past IT
+            <span class="lg:block">investments and support clients to avoid unnecessary project
+              restarts and costs.</span>
+            <span class="lg:block">AgileCube has 10 years of experience in consulting, to enable
+              Modernizing or reengineering</span>
+            <span class="lg:block">
+              an application includes code assessment, preparation for cloud
+              migration under a</span>
+            <span class="lg:block">
+              refreshed, up-to-date infrastructure and software environment,
+              and application</span>
+            containerization for faster loading times.
+          </p>
+        </div>
+      </div>
+      <div class="lg:flex items-center justify-center text-center lg:text-start mt-10 lg:mt-0">
+        <div>
+          <h2 class="font-bold lg:text-5xl text-4xl text-blue-600 font-family">
+            Product <span class="text-black"> Development</span>
+          </h2>
+          <p class="lg:text-base text-sm font-normal text-gray-700 mt-5 font-family">
+            The company’s agile, comprehensive, and future-proof product
+            engineering services
+            <span class="lg:block">are providing support for both fresh startups, from the initial
+              idea to post-delivery</span>
+            upgrades, and mature companies in need of product development.
+          </p>
+        </div>
+        <img src="/dist/img/png/Home screen-pana.png" alt="#" />
+      </div>
+      <div class="lg:flex items-center justify-center text-center lg:text-start mt-10 lg:mt-0 pb-10 lg:pb-0">
+        <img src="/dist/img/png/JavaScript-frameworks.png" alt="#" />
+        <div>
+          <h2 class="font-bold lg:text-5xl text-4xl text-blue-600 font-family">
+            Application
+            <span class="text-black"> Development</span>
+          </h2>
+          <p class="lg:text-base text-sm font-normal text-gray-700 mt-5 font-family">
+            Invent, build, integrate, scale, and upgrade your applications
+            with AgileCube! For more than
+            <span class="lg:block">a decade, we have been harnessing digital technologies for the
+              benefit of Fortune 500</span>
+            businesses, mid and large enterprises, and startups across a
+            variety of industries.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="bg-slate-700 overflow-hidden">
+    <div class="container mx-auto py-16 px-6">
+      <div class="lg:flex items-center">
+        <div class="w-full lg:w-[70%]">
+          <img src="/dist/img/svg/termnl-1.svg" alt="#" />
+          <p class="text-base font-normal text-gray-300 font-family">
+            Dolor lacus nisl at elementum, aliquet ac.
+            <span class="lg:block">Consectetur viverra ornare vel morbi ut</span>
+            in tincidunt viverra.
+          </p>
+        </div>
+        <div class="w-full lg:w-[30%] mt-10 lg:mt-0">
+          <div class="flex items-center cursor-pointer">
+            <span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.8">
+                  <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M22 6L12 13L2 6" stroke="white" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </g>
+              </svg>
+            </span>
+            <p class="text-base font-normal text-gray-300 ms-5 font-family">
+              termnl@gmail.com
+            </p>
+          </div>
+          <div class="flex items-center mt-5 cursor-pointer">
+            <span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.8">
+                  <path
+                    d="M18 9.75H16.5C16.4994 9.15345 16.2622 8.5815 15.8403 8.15967C15.4185 7.73784 14.8466 7.5006 14.25 7.5V6C15.2442 6.00119 16.1973 6.39666 16.9003 7.09966C17.6033 7.80267 17.9988 8.7558 18 9.75Z"
+                    fill="white" />
+                  <path
+                    d="M21 9.75H19.5C19.4984 8.3581 18.9448 7.02367 17.9606 6.03944C16.9763 5.05522 15.6419 4.50159 14.25 4.5V3C16.0396 3.00199 17.7553 3.71378 19.0208 4.97922C20.2862 6.24466 20.998 7.9604 21 9.75Z"
+                    fill="white" />
+                  <path
+                    d="M19.5 21.75H19.3725C4.635 20.9025 2.5425 8.4675 2.25 4.6725C2.20428 4.07756 2.39676 3.48883 2.78509 3.03579C3.17343 2.58276 3.72581 2.30253 4.32075 2.25675C4.38025 2.25225 4.44 2.25 4.5 2.25H8.4525C8.75291 2.24971 9.0465 2.33963 9.29522 2.50812C9.54394 2.67661 9.73634 2.9159 9.8475 3.195L10.9875 6C11.0973 6.27266 11.1245 6.57156 11.0658 6.85957C11.0072 7.14758 10.8652 7.412 10.6575 7.62L9.06 9.2325C9.30852 10.651 9.98728 11.9587 11.0042 12.9784C12.0212 13.998 13.3272 14.6802 14.745 14.9325L16.3725 13.32C16.5836 13.1146 16.8505 12.9759 17.14 12.9213C17.4294 12.8666 17.7285 12.8983 18 13.0125L20.8275 14.145C21.1024 14.2597 21.3369 14.4536 21.5012 14.702C21.6655 14.9504 21.7521 15.2422 21.75 15.54V19.5C21.75 20.0967 21.5129 20.669 21.091 21.091C20.669 21.5129 20.0967 21.75 19.5 21.75ZM4.5 3.75C4.4015 3.7497 4.30392 3.76881 4.21281 3.80623C4.1217 3.84365 4.03886 3.89864 3.96901 3.96808C3.89915 4.03751 3.84366 4.12003 3.8057 4.21091C3.76773 4.30179 3.74804 4.39926 3.74775 4.49775C3.74775 4.51875 3.7485 4.5395 3.75 4.56C4.095 9 6.3075 19.5 19.455 20.25C19.6535 20.2619 19.8486 20.1945 19.9974 20.0625C20.1462 19.9306 20.2365 19.745 20.2485 19.5465L20.25 19.5V15.54L17.4225 14.4075L15.27 16.545L14.91 16.5C8.385 15.6825 7.5 9.1575 7.5 9.09L7.455 8.73L9.585 6.5775L8.46 3.75H4.5Z"
+                    fill="white" />
+                </g>
+              </svg>
+            </span>
+            <p class="text-base font-normal text-gray-300 ms-5 font-family">
+              1234567890
+            </p>
+          </div>
+          <div class="flex items-center mt-5 cursor-pointer">
+            <span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.8">
+                  <path
+                    d="M12 21.0001C10.7369 19.9227 9.56619 18.7416 8.5 17.4691C6.9 15.5581 5 12.7121 5 10.0001C4.99931 8.61505 5.40951 7.26094 6.17869 6.10912C6.94788 4.9573 8.04147 4.05955 9.32107 3.52949C10.6007 2.99943 12.0087 2.86088 13.3671 3.13138C14.7255 3.40189 15.9731 4.06928 16.952 5.04909C17.6038 5.69795 18.1203 6.46963 18.4719 7.31947C18.8234 8.1693 19.0029 9.08042 19 10.0001C19 12.7121 17.1 15.5581 15.5 17.4691C14.4338 18.7416 13.2631 19.9227 12 21.0001ZM12 5.00009C10.6744 5.00168 9.40356 5.52897 8.46622 6.46631C7.52888 7.40365 7.00159 8.6745 7 10.0001C7 11.1661 7.527 13.1851 10.035 16.1861C10.6531 16.9242 11.309 17.6298 12 18.3001C12.691 17.6305 13.3472 16.9259 13.966 16.1891C16.473 13.1841 17 11.1651 17 10.0001C16.9984 8.6745 16.4711 7.40365 15.5338 6.46631C14.5964 5.52897 13.3256 5.00168 12 5.00009ZM12 13.0001C11.2044 13.0001 10.4413 12.684 9.87868 12.1214C9.31607 11.5588 9 10.7957 9 10.0001C9 9.20444 9.31607 8.44138 9.87868 7.87877C10.4413 7.31616 11.2044 7.00009 12 7.00009C12.7957 7.00009 13.5587 7.31616 14.1213 7.87877C14.6839 8.44138 15 9.20444 15 10.0001C15 10.7957 14.6839 11.5588 14.1213 12.1214C13.5587 12.684 12.7957 13.0001 12 13.0001Z"
+                    fill="white" />
+                </g>
+              </svg>
+            </span>
+            <p class="text-base font-normal text-gray-300 ms-5 font-family">
+              Ultrices condimentum non, ac
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gray-800">
+      <div class="text-center py-5">
+        <p class="text-sm font-normal text-gray-300 font-family">
+          Copyright @ 2021
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    function Menu(e) {
+      let list = document.querySelector("ul");
+
+      e.name === "menu"
+        ? ((e.name = "close"),
+          list.classList.add("top-[80px]"),
+          list.classList.add("opacity-100"))
+        : ((e.name = "menu"),
+          list.classList.remove("top-[80px]"),
+          list.classList.remove("opacity-100"));
+    }
+  </script>
+
+  <script>
+    $(".single-item").slick({
+      dots: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      arrows: false,
+    });
+    function openNav() {
+      document.getElementById("nav-bar").classList.toggle("left_0");
+    }
+    $(".prev-btn").click(function () {
+      $(".single-item").slick("slickPrev");
+    });
+    $(".next-btn").click(function () {
+      $(".single-item").slick("slickNext");
+    });
+    $(".prev-btn").addClass("slick-disabled");
+    $(".single-item").on("afterChange", function () {
+      if ($(".slick-prev").hasClass("slick-disabled")) {
+        $(".prev-btn").addClass("slick-disabled");
+      } else {
+        $(".prev-btn").removeClass("slick-disabled");
+      }
+      if ($(".slick-next").hasClass("slick-disabled")) {
+        $(".next-btn").addClass("slick-disabled");
+      } else {
+        $(".next-btn").removeClass("slick-disabled");
+      }
+    });
+  </script>
+</body>
+
+</html>
