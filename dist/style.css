@@ -698,6 +698,10 @@ video {
   cursor: pointer;
 }
 
+.scroll-m-0{
+  scroll-margin: 0px;
+}
+
 .flex-col{
   flex-direction: column;
 }
